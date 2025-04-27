@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions;
 public class BonusServiceTest {
 
     @Test
-     void shouldCalculateForRegisteredAndUnderLimit() {
+    void shouldCalculateForRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
@@ -22,7 +22,7 @@ public class BonusServiceTest {
     }
 
     @Test
-   void shouldCalculateForRegisteredAndOverLimit() {
+    void shouldCalculateForRegisteredAndOverLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
